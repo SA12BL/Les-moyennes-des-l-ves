@@ -25,7 +25,11 @@ float max1,min1,max2,min2;
           }
     }
  	          printf("La note superieure est: %f \n et la note minimale est : %f \n",max1,min1);
-
+         for(i=0;i<13;i++){
+            if(T[i] >= 10){
+              printf("Affichez la note superieur ou egale à dix % f \n",T[i] );
+            }
+         }
 //CLASSE NUM 2
  	printf("Les moyennes es eleves du classe 2 \n");
            for(i=0;i<15;i++){
@@ -45,6 +49,11 @@ float max1,min1,max2,min2;
     }
 }
            printf("La note superieure est : %f \n et la note minimale est : %f \n",max2,min2);
+            for(i=0;i<15;i++){
+            if(A[i] >= 10){
+              printf("Affichez la note superieur ou egale à dix % f \n", A[i] );
+            }
+}
 // fisionner le tableau T et A dans tab
         for(i=0;i<13;i++){
         	tab[i]=T[i];
